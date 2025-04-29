@@ -16,7 +16,7 @@ const mapList = (data = []) => {
           <Link
             to={item.path}
             key={index}
-            className="w-350 h-122 border-1 rounded-30 border-[#ccc] hover:text-[#FF5C01] hover:border-[#FF5C01]"
+            className="w-350 h-122 border-1 rounded-25 border-[#ccc] hover:text-[#FF5C01] hover:border-[#FF5C01]"
           >
             <div className="block text-24 font-bold mt-49">{item.title}</div>
           </Link>
@@ -93,7 +93,13 @@ export default function HelpCenter() {
     }
   }
   return (
-    <div className="bg-[#EDEDED]">
+    <div
+      className={`${
+        location.search !== "?desc" && location.search !== "?form"
+          ? "bg-[#fff]"
+          : "bg-[#EDEDED]"
+      }`}
+    >
       <div
         className={`w-full h-300 text-center text-white`}
         style={{
