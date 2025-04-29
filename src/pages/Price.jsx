@@ -41,7 +41,7 @@ import bg39 from "@/assets/price/bg39.png";
 import bg40 from "@/assets/price/bg40.png";
 import bg41 from "@/assets/price/bg41.png";
 import fire from "@/assets/price/fire.png";
-import ok from "@/assets/price/ok.png";
+import ok from "@/assets/price/ok1.png";
 import arrowRight from "@/assets/arrow-right.png";
 import arrowRightBlack from "@/assets/arrow-right-black.png";
 import { Link } from "react-router-dom";
