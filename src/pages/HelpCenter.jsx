@@ -137,7 +137,7 @@ export default function HelpCenter() {
               ? "block"
               : "none",
         }}
-        className="w-1090 h-406 mx-auto mt-34 mb-78"
+        className="w-1090 h-518 mx-auto pt-34 pb-78"
       >
         {mapList([
           // {
