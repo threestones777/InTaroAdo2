@@ -50,7 +50,7 @@ export default function CustomerCases() {
       <div className="w-full mt-80 mx-auto h-500 bg-[#000] flex justify-center">
         <div className="w-750 h-500">
           <div
-            className="w-550 h-502 mx-auto relative bottom-2  wow animate__animated animate__fadeInUp"
+            className="w-550 h-500 mx-auto wow animate__animated animate__fadeInUp"
             style={{
               backgroundImage: `url(${bg1})`,
               backgroundSize: "100% 100%",
