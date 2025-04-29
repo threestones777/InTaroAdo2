@@ -98,7 +98,11 @@ export default function OrderPay() {
 
       <div className="w-full bg-[#FF5C01]">
         <div className="w-1100 mx-auto">
-          <div className="w-550 mx-auto pt-80 pb-60 text-48 leading-64 font-normal text-center text-white  wow animate__animated animate__fadeInUp">
+          <div
+            className={`${
+              localStorage.lang === "en" ? "w-800" : "w-550"
+            } mx-auto pt-80 pb-60 text-48 leading-64 font-normal text-center text-white  wow animate__animated animate__fadeInUp`}
+          >
             {i18nKeys.pay_4}
           </div>
           {mapList3([
@@ -138,7 +142,11 @@ export default function OrderPay() {
           ></div>
         </div>
         <div className="w-700 h-512 bg-[#000] text-white rounded-tr-35 rounded-br-35">
-          <div className="w-550 h-220 mx-auto mt-106">
+          <div
+            className={`w-550 h-220 mx-auto ${
+              localStorage.lang === "en" ? "mt-70" : "mt-106"
+            }`}
+          >
             <p className="text-48 leading-64 font-bold  wow animate__animated animate__fadeInUp">
               {i18nKeys.pay_13}
             </p>
@@ -161,7 +169,11 @@ export default function OrderPay() {
 
       <div className="w-1320 mt-73 mx-auto h-412 flex justify-between">
         <div className="w-550 h-412">
-          <div className="w-550 h-220 mx-auto mt-90">
+          <div
+            className={`w-550 h-220 mx-auto ${
+              localStorage.lang === "en" ? "mt-70" : "mt-90"
+            }`}
+          >
             <p className="text-48 leading-64 font-bold  wow animate__animated animate__fadeInUp">
               {i18nKeys.pay_16}
             </p>
@@ -194,7 +206,11 @@ export default function OrderPay() {
           ></div>
         </div>
         <div className="w-700 h-512 text-[#000]">
-          <div className="w-550 h-220 mx-auto mt-142 wow animate__animated animate__fadeInUp">
+          <div
+            className={`w-550 h-220 mx-auto ${
+              localStorage.lang === "en" ? "mt-110" : "mt-142"
+            } wow animate__animated animate__fadeInUp`}
+          >
             <p className="text-48 leading-64 font-bold">{i18nKeys.pay_18}</p>
             <p className="text-16 leading-24 font-normal mt-32">
               {i18nKeys.pay_19}
@@ -205,7 +221,11 @@ export default function OrderPay() {
 
       <div className="w-1320 mt-80 mx-auto h-412 flex justifu-between">
         <div className="w-700 h-412">
-          <div className="w-550 h-220 mx-auto mt-90 wow animate__animated animate__fadeInUp">
+          <div
+            className={`w-550 h-220 mx-auto ${
+              localStorage.lang === "en" ? "mt-70" : "mt-90"
+            } wow animate__animated animate__fadeInUp`}
+          >
             <p className="text-48 leading-64 font-bold">{i18nKeys.pay_20}</p>
             <p className="text-16 leading-24 font-normal mt-20 text-[#000]">
               {i18nKeys.pay_21}

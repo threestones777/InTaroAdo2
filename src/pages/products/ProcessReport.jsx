@@ -133,8 +133,8 @@ export default function ProcessReport() {
         <div className="w-700 h-500 text-white rounded-tr-35 rounded-br-35">
           <div
             className={`${
-              localStorage.lang === "en" ? "w-700" : "w-590"
-            } h-220 mx-auto mt-134 pl-40  wow animate__animated animate__fadeInUp`}
+              localStorage.lang === "en" ? "w-700 mt-100" : "w-590 mt-134"
+            } h-220 mx-auto pl-40  wow animate__animated animate__fadeInUp`}
           >
             <p className="text-48 leading-64 font-bold">{i18nKeys.report_4}</p>
             <p className="text-16 leading-24 font-normal mt-32 opacity-80">

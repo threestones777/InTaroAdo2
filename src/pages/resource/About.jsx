@@ -35,7 +35,11 @@ const mapList3 = (data = []) => {
             >
               {item.title}
             </p>
-            <p className={`h-40  ${item.text1} text-14 leading-20 font-normal`}>
+            <p
+              className={`${localStorage.lang === "en" ? "h-60" : "h-40"} ${
+                item.text1
+              } text-14 leading-20 font-normal`}
+            >
               {item.desc}
             </p>
             <Link
@@ -150,7 +154,11 @@ export default function About() {
       <div className="w-full bg-[#000]">
         <div className="w-1320 text-white mt-80 mx-auto h-500q flex justify-between">
           <div className="w-700 h-500">
-            <div className="w-550 h-220 mx-auto mt-110 wow animate__animated animate__fadeInUp">
+            <div
+              className={`w-550 h-220 mx-auto ${
+                localStorage.lang === "en" ? "mt-80" : "mt-110"
+              } wow animate__animated animate__fadeInUp`}
+            >
               <p className="w-480 text-48 leading-64 font-bold">
                 {i18nKeys.about_16}
               </p>
@@ -184,7 +192,11 @@ export default function About() {
           ></div>
         </div>
         <div className="w-700 h-412 rounded-tr-35 rounded-br-35">
-          <div className="w-550 h-220 mx-auto mt-74">
+          <div
+            className={`w-550 h-220 mx-auto ${
+              localStorage.lang === "en" ? "mt-30" : "mt-74"
+            }`}
+          >
             <p className="text-48 leading-64 font-bold  wow animate__animated animate__fadeInUp">
               {i18nKeys.about_18}
             </p>
@@ -203,7 +215,11 @@ export default function About() {
       </div>
 
       <div className="mt-160 mb-80">
-        <div className="w-700 mx-auto flex justify-between wow animate__animated animate__fadeInUp">
+        <div
+          className={`${
+            localStorage.lang === "en" ? "w-900" : "w-700"
+          } mx-auto flex justify-between wow animate__animated animate__fadeInUp`}
+        >
           <div className="w-220 h-2 border-1 relative top-38"></div>
           <div
             className={`${

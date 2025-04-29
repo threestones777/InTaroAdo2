@@ -68,7 +68,7 @@ const mapList3 = (data = []) => {
               {item.title}
             </p>
             <hr className="w-501 border-t-1 mb-20" />
-            <p className="text-14 leading-24 font-normal text-[#000]">
+            <p className="text-14 leading-24 font-normal text-[#000] line-clamp-4">
               {item.desc}
             </p>
           </div>
@@ -120,7 +120,11 @@ export default function AppleGooglePay() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="pt-155 absolute left-[10%]">
+        <div
+          className={`${
+            localStorage.lang === "en" ? "pt-50" : "pt-155"
+          } absolute left-[10%]`}
+        >
           <p className="w-540 text-48 font-bold  wow animate__animated animate__fadeInUp">
             {i18nKeys.apple_1}
           </p>

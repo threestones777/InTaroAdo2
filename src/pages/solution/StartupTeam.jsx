@@ -80,7 +80,7 @@ export default function StartupTeam() {
         <div className="w-700 h-500 text-white rounded-tr-35 rounded-br-35">
           <div
             className={`${
-              localStorage.lang === "en" ? "w-650 mt-110" : "w-550 mt-142"
+              localStorage.lang === "en" ? "w-650 mt-80" : "w-550 mt-142"
             } h-220 mx-auto  wow animate__animated animate__fadeInUp`}
           >
             <p className="text-48 leading-64 font-bold">{i18nKeys.start_4}</p>
@@ -159,7 +159,7 @@ export default function StartupTeam() {
         <div className="w-700 h-412 rounded-tr-35 rounded-br-35">
           <div
             className={`w-550 h-220 mx-auto ${
-              localStorage.lang === "en" ? "mt-80" : "mt-98"
+              localStorage.lang === "en" ? "mt-60" : "mt-98"
             }`}
           >
             <p className="text-48 leading-64 font-bold  wow animate__animated animate__fadeInUp">

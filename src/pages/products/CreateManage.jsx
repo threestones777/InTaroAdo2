@@ -79,7 +79,11 @@ export default function CreateManage() {
           ></div>
         </div>
         <div className="w-700 h-500 text-white rounded-tr-35 rounded-br-35">
-          <div className="w-550 h-220 mx-auto mt-166 ml-20 wow animate__animated animate__fadeInUp">
+          <div
+            className={`w-550 h-220 mx-auto ${
+              localStorage.lang === "en" ? "mt-120" : "mt-166"
+            } ml-20 wow animate__animated animate__fadeInUp`}
+          >
             <p className="text-48 leading-64 font-bold">{i18nKeys.create_4}</p>
             <p className="text-16 leading-24 font-normal mt-32 opacity-80">
               {i18nKeys.create_5}
@@ -127,7 +131,11 @@ export default function CreateManage() {
           ></div>
         </div>
         <div className="w-700 h-512 rounded-tr-35 rounded-br-35 ">
-          <div className="w-550 h-220 mx-auto mt-145">
+          <div
+            className={`w-550 h-220 mx-auto ${
+              localStorage.lang === "en" ? "mt-110" : "mt-145"
+            }`}
+          >
             <p className="text-48 leading-64 font-bold  wow animate__animated animate__fadeInUp">
               {i18nKeys.create_8}
             </p>

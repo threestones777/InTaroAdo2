@@ -74,13 +74,17 @@ export default function Community() {
 
       <div className="w-1320 mx-auto mt-80 h-412 rounded-35 flex justifu-between">
         <div className="w-700 h-412 rounded-tr-35 rounded-br-35">
-          <div className="w-550 mx-auto mt-74 wow animate__animated animate__fadeInUp line-clamp-2">
+          <div
+            className={`w-550 mx-auto ${
+              localStorage.lang === "en" ? "mt-20" : "mt-74"
+            } wow animate__animated animate__fadeInUp`}
+          >
             <p className="text-48 leading-64 font-bold">
               {i18nKeys.community_6}
             </p>
             <p
               title={i18nKeys.community_7}
-              className="text-16 leading-24 font-normal mt-32 text-[#000] line-clamp-4"
+              className="text-16 leading-24 font-normal mt-32 text-[#000]"
             >
               {i18nKeys.community_7}
             </p>

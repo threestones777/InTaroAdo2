@@ -115,7 +115,7 @@ export default function CustomerCases() {
         <div className="w-660 h-513 bg-[#FF5C01] text-white">
           <div
             className={`w-550 h-220 ml-68 ${
-              localStorage.lang === "en" ? "mt-110" : "mt-146"
+              localStorage.lang === "en" ? "mt-80" : "mt-146"
             }  wow animate__animated animate__fadeInUp`}
           >
             <p className="text-48 leading-64 font-bold">{i18nKeys.case_7}</p>

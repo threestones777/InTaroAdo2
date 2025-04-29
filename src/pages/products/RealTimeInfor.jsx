@@ -105,7 +105,7 @@ export default function RealTimeInfor() {
         </div>
       </div>
 
-      <div className="w-1320 mx-auto h-412 rounded-35 flex justifu-between">
+      <div className="w-1320 mx-auto mt-80 h-412 rounded-35 flex justifu-between">
         <div className="w-650 h-412">
           <div
             className="w-550 h-412 mx-auto  wow animate__animated animate__fadeInUp"
@@ -131,8 +131,8 @@ export default function RealTimeInfor() {
       <div className="w-1320 mt-80 bg-[#000] text-white rounded-35 mx-auto h-512 flex justifu-between">
         <div className="w-700 h-512 rounded-tr-35 rounded-br-35 ">
           <div
-            className={`w-550 ${
-              localStorage.lang === "en" ? "mt-100" : "mt-141"
+            className={`${
+              localStorage.lang === "en" ? "w-600 mt-100" : "w-550 mt-141"
             } h-220 mx-auto  wow animate__animated animate__fadeInUp`}
           >
             <p className="text-48 leading-64 font-bold">{i18nKeys.real_10}</p>

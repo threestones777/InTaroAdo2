@@ -445,7 +445,7 @@ export default function Home() {
                 <Link
                   to="/resource/recommended"
                   className={`block ${
-                    localStorage.lang === "en" ? "w-200" : "w-160"
+                    localStorage.lang === "en" ? "w-210" : "w-160"
                   } h-52 bg-[#FF5C01] p-18 text-center rounded-25 text-white text-18 leading-16 hover:bg-[#000] hover:cursor-pointer mr-20  wow animate__animated animate__fadeInUp`}
                 >
                   <span>{i18nKeys.home_47}</span>

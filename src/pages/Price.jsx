@@ -439,7 +439,9 @@ export default function Price() {
         </p>
         <Link
           to="/forexcalculator"
-          className="block w-244 h-52 bg-[#fff] p-18 rounded-25 text-20 leading-16 hover:opacity-80 hover:cursor-pointer mt-20 mx-auto  wow animate__animated animate__fadeInUp"
+          className={`block ${
+            localStorage.lang === "en" ? "w-270" : "w-244"
+          } h-52 bg-[#fff] p-18 rounded-25 text-20 leading-16 hover:opacity-80 hover:cursor-pointer mt-20 mx-auto  wow animate__animated animate__fadeInUp`}
         >
           <span className="text-[#000]">{i18nKeys.price_36}</span>
           <img src={arrowRightBlack} className="inline-block w-20 h-20 ml-12" />

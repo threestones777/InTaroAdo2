@@ -46,7 +46,7 @@ export default function EducationIndustry() {
         <div className="w-700 h-500 text-white">
           <div
             className={`w-550 h-220 mx-auto ${
-              localStorage.lang === "en" ? "mt-100" : "mt-127"
+              localStorage.lang === "en" ? "mt-90" : "mt-127"
             }  wow animate__animated animate__fadeInUp`}
           >
             <p className="text-48 leading-64 font-bold">{i18nKeys.edu_4}</p>
